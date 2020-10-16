@@ -1,5 +1,4 @@
 /*-----------------------------------Main Styles--------------------------------------------------*/
-img{max-width:100%}
 header img {
     height: 80px;
     margin: 30px 0px 10px 5px;
@@ -81,10 +80,6 @@ nav .active-page {
 h2{color:#87423c; font-size:36px}
 h3{color:#4d1d18; font-size:24px}
 p{line-height: 150%;}
-@media only screen and (max-width:1000px){
-     body, header, main, footer{
-    width:100% !important}
-}
 /*-----------------------------------Home Styles--------------------------------------------------*/
 .about-us{
     background-image: url('./images/back_beach.jpg') ;
