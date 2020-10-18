@@ -95,10 +95,10 @@ $(document).ready(function(){
   <input type="button" value="press to open dialog" id="login">
 </p>
 </div>
-<div id="mydialog" aria-hidden="true" role="dialog" class="dialogclass hidden" aria-labelledby="dialogheader">
+<div id="mydialog" aria-hidden="true" role="dialog" class="dialogclass hidden" aria-labelledby="dialogheader" aria-describedby="contentdesc">
 <div class="whitebox">
-<h1 id="dialogheader" tabindex="0" >login</h1>
-<p>
+<h1 id="dialogheader" tabindex="0">login</h1>
+<p id="contentdesc">
 Note that this form does nothing, it is just to show aria dialog at work. <br>
 There are no required elements.</p><fieldset>
 <label>name: <input type="text" name="name" id="name"></label><br>
